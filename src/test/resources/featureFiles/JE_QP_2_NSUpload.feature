@@ -735,7 +735,6 @@ Feature: NS UPLOAD
     And Enter valid amount in Add Line Item
     And Click save button in Add Line Item
     And Click close button in Add Line Item
-    Then Click close button in Add Line Items
     Then close the NSUpload Page
 
   @TC_40
