@@ -1,0 +1,4 @@
+stepDefinition\JE_QP_2_NSUpload.class
+runnerClass\JE_QP_1_SignInRunnerTest.class
+runnerClass\JE_QP_2_NSUploadRunnerTest.class
+stepDefinition\JE_QP_1_SignIn.class

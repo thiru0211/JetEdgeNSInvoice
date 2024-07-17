@@ -53,7 +53,6 @@ public class JE_QP_2_NSUpload {
 		} catch (NoAlertPresentException e) {
 			System.out.println("No Alert message is displayed");
 		}
-
 	}
 
 
