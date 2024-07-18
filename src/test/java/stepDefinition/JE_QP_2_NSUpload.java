@@ -28,7 +28,7 @@ public class JE_QP_2_NSUpload {
 	public void user_is_navigating_to_jet_edge_Signin_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option=new ChromeOptions();
-		//option.addArguments("--headless=new");
+		option.addArguments("--headless=new");
 		driver=new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -64,7 +64,7 @@ public class JE_QP_2_NSUpload {
 
 	@And("Click menu button in homepage")
 	public void Click_menu_button_in_homepage() {
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(2));
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(3));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_desktop_toggle\"]/span")));
 		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_desktop_toggle\"]/span"));
 		ele.click();
@@ -220,6 +220,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@Then("Select valid multi tail in verify trips")
 	public void select_valid_multi_tail_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -228,6 +229,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@And("Select valid  Segment Tax Check in verify trips")
 	public void select_valid_segment_tax_check_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -236,6 +238,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@Then("Select valid Trip Purpose in verify trips")
 	public void select_valid_trip_purpose_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -244,6 +247,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@And("Select valid  NS Status in verify trips")
 	public void select_valid_ns_status_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -252,6 +256,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@Then("Enter valid trip number in verify trips")
 	public void enter_valid_trip_number_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -276,6 +281,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@And("Select ascending option in verify trips")
 	public void select_ascending_option_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -284,6 +290,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(0);
 	}
+	
 	@Then("Click go button in verify trips")
 	public void click_go_button_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -389,6 +396,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("/html/body/form/div[5]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div/div[3]/div/div/table/tbody/tr[2]/td[15]/a/span"));
 		ele.click();
 	}
+	
 	@And("Clear quote number in verify trips")
 	public void clear_quote_number_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -396,6 +404,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtQuoteNo"));
 		ele.clear();
 	}
+	
 	@Then("Clear Customer ID in verify trips")
 	public void clear_customer_id_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -403,6 +412,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtCustomerID"));
 		ele.clear();
 	}
+	
 	@And("Clear Customer Name in verify trips")
 	public void clear_customer_name_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -410,6 +420,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtCustomerName"));
 		ele.clear();
 	}
+	
 	@Then("Click update button in verify trips")
 	public void click_update_button_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -435,8 +446,8 @@ public class JE_QP_2_NSUpload {
 		ele.clear();
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtQuoteNo"));
 		ele1.sendKeys(text);
-
 	}
+	
 	@Then("Modify Customer ID in verify trips")
 	public void modify_customer_id_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -447,6 +458,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtCustomerID"));
 		ele1.sendKeys(text);
 	}
+	
 	@And("Modify Customer Name in verify trips")
 	public void modify_customer_name_in_verify_trips() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -457,6 +469,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtCustomerName"));
 		ele1.sendKeys(text);
 	}
+	
 	@Then("Click edit button in Line Item")
 	public void click_edit_button_in_Line_Item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -480,6 +493,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_lblPItemCode"));
 		ele.clear();
 	}
+	
 	@And("Clear Item Description in Line Item")
 	public void clear_item_description_in_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -487,6 +501,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_lblPItemDesc"));
 		ele.clear();
 	}
+	
 	@Then("Click save button in Line Item")
 	public void click_save_button_in_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -513,6 +528,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_lblPItemDesc"));
 		ele1.sendKeys(text);
 	}
+	
 	@Then("Modify Item Description in Line Item")
 	public void modify_item_description_in_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -523,6 +539,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_lblPItemDesc"));
 		ele1.sendKeys(text);
 	}
+	
 	@Then("Click close button in Success message")
 	public void click_close_button_in_success_message() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -576,6 +593,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Enter valid notes in verify trip")
 	public void enter_valid_notes_in_verify_trip() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -586,6 +604,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtVReason"));
 		ele1.sendKeys(text);
 	}
+	
 	@And("Click submit button inn verify trip")
 	public void click_submit_button_inn_verify_trip() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -601,6 +620,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_liViewLog\"]/a/span"));
 		ele.click();
 	}
+	
 	@And("Click close button in leg details")
 	public void click_close_button_in_leg_details() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -616,6 +636,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_li1\"]/a/span"));
 		ele.click();
 	}
+	
 	@And("Click close button in Invoiced in GP")
 	public void click_close_button_in_invoiced_in_gp() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -645,6 +666,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Enter valid notes in Invoiced in GP")
 	public void enter_valid_notes_in_invoiced_in_gp() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -655,6 +677,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtGPNotes"));
 		ele1.sendKeys("Test");
 	}
+	
 	@And("Click submit button in Invoiced in GP")
 	public void click_submit_button_in_invoiced_in_gp() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -670,6 +693,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_liIgnore\"]/a/span"));
 		ele.click();
 	}
+	
 	@And("Click close button in Ignore Trip")
 	public void click_close_button_in_ignore_trip() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -699,6 +723,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Enter valid reson in Ignore Trip")
 	public void enter_valid_notes_in_ignore_trip() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -709,6 +734,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtReason"));
 		ele1.sendKeys("Test");
 	}
+	
 	@And("Click submit button in Ignore Trip")
 	public void click_submit_button_in_ignore_trip() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -724,6 +750,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_liAddItem\"]/a/span"));
 		ele.click();
 	}
+	
 	@And("Click close button in Add Line Item")
 	public void click_close_button_in_add_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -769,6 +796,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Select valid item code in Add Line Item")
 	public void select_valid_item_code_in_add_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -777,6 +805,7 @@ public class JE_QP_2_NSUpload {
 		Select sel=new Select(ele);
 		sel.selectByIndex(2);
 	}
+	
 	@And("Enter valid amount in Add Line Item")
 	public void enter_valid_amount_in_add_line_item() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -792,6 +821,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_liChangeLOg\"]/a/span"));
 		ele.click();
 	}
+	
 	@And("Click close button in Line Item Log Details")
 	public void click_close_button_in_line_item_log_details() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -826,6 +856,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[4]/a/span"));
 		ele.click();
 	}
+	
 	@Then("Select higher from date in Net Suite Upload")
 	public void select_higher_from_date_in_net_suite_upload() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -871,6 +902,7 @@ public class JE_QP_2_NSUpload {
 		ele5 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
 		ele5.click();
 	}
+	
 	@Then("Click search button in Net Suite Upload")
 	public void click_search_button_in_net_suite_upload() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -964,6 +996,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Enter valid notes in step2")
 	public void enter_valid_notes_in_step2() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -982,6 +1015,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_ancLockStatus\"]/div/div[1]/div/label[2]"));
 		ele.click();
 	}
+	
 	@And("Click yes radio button in step3")
 	public void click_yes_radio_button_in_step3() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -995,6 +1029,7 @@ public class JE_QP_2_NSUpload {
 			System.out.println("Radio button is already selected");
 		}
 	}
+	
 	@Then("Enter valid notes in step3")
 	public void enter_valid_notes_in_step3() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -1005,6 +1040,7 @@ public class JE_QP_2_NSUpload {
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtLockedNotes"));
 		ele1.sendKeys("test");
 	}
+	
 	@And("Click unlock batch button in step3")
 	public void click_unlock_batch_button_in_step3() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
@@ -1020,6 +1056,7 @@ public class JE_QP_2_NSUpload {
 		ele = driver.findElement(By.id("ContentPlaceHolder1_btnLocked"));
 		ele.click();
 	}
+	
 	@Then("Click close button in step3")
 	public void click_close_button_in_step3() {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));

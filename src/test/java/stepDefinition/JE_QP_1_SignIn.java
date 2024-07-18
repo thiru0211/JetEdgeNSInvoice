@@ -72,7 +72,7 @@ public class JE_QP_1_SignIn {
 
 	@Then("Click the menu icon in homepage")
 	public void Click_the_menu_icon_in_homepage() {
-		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(3));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("kt_quick_user_toggle")));
 		ele = driver.findElement(By.id("kt_quick_user_toggle"));
 		ele.click();

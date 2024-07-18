@@ -10,10 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 glue = "stepDefinition",
 monochrome = true,
 //dryRun = true,
-//tags="@TC_39",
+//tags="@TC_01",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
-		"html:Reports/cucumber-reports.html"
+		"html:Reports/cucumber-reports.html",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 })
 public class JE_QP_2_NSUploadRunnerTest {
 

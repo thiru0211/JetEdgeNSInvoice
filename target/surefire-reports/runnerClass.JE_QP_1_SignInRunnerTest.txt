@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: runnerClass.JE_QP_1_SignInRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 173.2 s -- in runnerClass.JE_QP_1_SignInRunnerTest
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 276.2 s <<< FAILURE! -- in runnerClass.JE_QP_1_SignInRunnerTest
+SignIn.Sign In:Valid Check #2 -- Time elapsed: 191.9 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: kt_quick_user_toggle (tried for 180 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50336/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac1db35a97130dcc7a4086918f036eac
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at stepDefinition.JE_QP_1_SignIn.Click_the_menu_icon_in_homepage(JE_QP_1_SignIn.java:76)
+	at ✽.Click the menu icon in homepage(file:///C:/Users/thirumaran/eclipse-workspace/JetEdgeNSInvoicePortal/src/test/resources/featureFiles/JE_QP_1_SignIn.feature:15)
+

@@ -12,7 +12,8 @@ monochrome = true,
 //tags="@TC_08",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
-		"html:Reports/cucumber-reports.html"
+		"html:Reports/cucumber-reports.html",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		})
 public class JE_QP_1_SignInRunnerTest {
 
