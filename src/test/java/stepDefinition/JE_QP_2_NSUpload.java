@@ -28,7 +28,7 @@ public class JE_QP_2_NSUpload {
 	public void user_is_navigating_to_jet_edge_Signin_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option=new ChromeOptions();
-		option.addArguments("--headless=new");
+		//option.addArguments("--headless=new");
 		driver=new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -1070,6 +1070,705 @@ public class JE_QP_2_NSUpload {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnBack1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_btnBack1"));
+		ele.click();
+	}
+	
+	@Then("Click International Tax Report button in NSUpload")
+	public void click_international_tax_report_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[1]/a/span[1]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[1]/a/span[1]"));
+		ele.click();
+	}
+	
+	@And("Select valid from date in International Tax Report")
+	public void select_valid_from_date_in_international_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromDate")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromDate"));
+		ele.click();
+		//Month Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]"));
+		ele1.click();
+		//Jan click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]"));
+		ele2.click();
+		//Date click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]")));
+		ele3 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
+		ele3.click();
+	}
+	
+	@Then("Select valid to date in International Tax Report")
+	public void select_valid_to_date_in_international_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtToDate")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtToDate"));
+		String CurrentDate = ele.getAttribute("value");
+		System.out.println("To calendar date displayed is : "+CurrentDate);
+		}
+	@And("Click search button in International Tax Report")
+	public void click_search_button_in_international_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSearch")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSearch"));
+		ele.click();
+	}
+	
+	@Then("Click export button in International Tax Report")
+	public void click_export_button_in_international_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnExport")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnExport"));
+		ele.click();
+	}
+	
+	@Then("Click Trip Audit Report button in NSUpload")
+	public void click_trip_audit_report_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[2]/a/span[1]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[2]/a/span[1]"));
+		ele.click();
+	}
+	@Then("Select valid from date in Trip Audit Report")
+	public void select_valid_from_date_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromDate1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromDate1"));
+		ele.click();
+		//Month Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]"));
+		ele1.click();
+		//Year Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]"));
+		ele2.click();
+		//Select 2023 year
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]")));
+		ele3 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]"));
+		ele3.click();
+		//Jan click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]")));
+		ele4 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]"));
+		ele4.click();
+		//Date click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]")));
+		ele5 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
+		ele5.click();
+	}
+	@And("Click search button in Trip Audit Report")
+	public void click_search_button_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSearch")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSearch"));
+		ele.click();
+	}
+	@Then("Click export button in Trip Audit Report")
+	public void click_export_button_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnExport")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnExport"));
+		ele.click();
+	}
+	
+	@And("Select valid trip option in Trip Audit Report")
+	public void select_valid_trip_option_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlTripType")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlTripType"));
+		Select sel=new Select(ele);
+		sel.selectByIndex(0);
+	}
+	@Then("Select valid NS Status option in Trip Audit Report")
+	public void select_valid_ns_status_option_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByIndex(0);
+	}
+	
+	@Then("Click submit button in Trip Audit Report")
+	public void click_submit_button_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSubmit")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSubmit"));
+		ele.click();
+	}
+	
+	@And("Click the checkbox in Trip Audit Report")
+	public void click_the_checkbox_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_gvTripDetails_lblchek_0")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_gvTripDetails_lblchek_0"));
+		ele.click();
+	}
+	
+	@And("Select pending option in Trip Audit Report")
+	public void select_pending_option_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Pending");
+	}
+	
+	@And("Click close button in Upload Trip")
+	public void click_close_button_in_upload_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_Button7")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_Button7"));
+		ele.click();
+	}
+	
+	@And("Click submit button in Upload Trip")
+	public void click_submit_button_in_upload_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_Button8")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_Button8"));
+		ele.click();
+	}
+	
+	@And("Click no radio button in Upload Trip")
+	public void click_no_radio_button_in_upload_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rdoVSelect_1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_rdoVSelect_1"));
+		ele.click();
+	}
+	@Then("Enter valid notes in Upload Trip")
+	public void enter_valid_notes_in_upload_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtVNotes")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtVNotes"));
+		String attribute = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtVNotes"));
+		ele1.sendKeys("Test");
+	}
+	
+	@And("Select completed option in Trip Audit Report")
+	public void select_completed_option_in_trip_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Completed");
+	}
+	
+	@Then("Click Segment Tax Report button in NSUpload")
+	public void click_segment_tax_report_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[3]/a/span")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[3]/a/span"));
+		ele.click();
+	}
+	@Then("Select valid from date in Segment Tax Report")
+	public void select_valid_from_date_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromMonth")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromMonth"));
+		ele.click();
+		//Month Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]"));
+		ele1.click();
+		//Year Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]"));
+		ele2.click();
+		//Select 2023 year
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]")));
+		ele3 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]"));
+		ele3.click();
+		//Jan click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]")));
+		ele4 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]"));
+		ele4.click();
+		//Date click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]")));
+		ele5 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
+		ele5.click();
+	}
+	@And("Select trip option in report by dropdown in Segment Tax Report")
+	public void select_trip_option_in_report_by_dropdown_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlReportBy")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlReportBy"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Trip");
+	}
+	@Then("Select diffrence option in Filter by dropdown in Segment Tax Report")
+	public void select_diffrence_option_in_filter_by_dropdown_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlFilterBy")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlFilterBy"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Difference");
+	}
+	@And("Click search button in Segment Tax Report")
+	public void click_search_button_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnRun")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnRun"));
+		ele.click();
+	}
+	
+	@Then("Click export button in Segment Tax Report")
+	public void click_export_button_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnExport")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnExport"));
+		ele.click();
+	}
+	
+	@And("Select Leg option in report by dropdown in Segment Tax Report")
+	public void select_leg_option_in_report_by_dropdown_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlReportBy")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlReportBy"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Leg");
+	}
+	@Then("Select All Trips\\/Leg option in Filter by dropdown in Segment Tax Report")
+	public void select_all_trips_leg_option_in_filter_by_dropdown_in_segment_tax_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlFilterBy")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlFilterBy"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("ALL Trips/Leg");
+	}
+	
+	@Then("Click Audit Report button in NSUpload")
+	public void click_audit_report_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[7]/a/span")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[7]/a/span"));
+		ele.click();
+	}
+	@And("Select valid from date in Audit Report")
+	public void select_valid_from_date_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromDate1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromDate1"));
+		ele.click();
+		//Month Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]"));
+		ele1.click();
+		//Year Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]"));
+		ele2.click();
+		//Select 2023 year
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]")));
+		ele3 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]"));
+		ele3.click();
+		//Jan click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]")));
+		ele4 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]"));
+		ele4.click();
+		//Date click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]")));
+		ele5 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
+		ele5.click();
+	}
+	@Then("Select valid trip type in Audit Report")
+	public void select_valid_trip_type_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlTripType")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlTripType"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("ALL");
+	}
+	@And("Select all option in Audit Report")
+	public void select_all_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("All");
+	}
+	@And("Click search button in Audit Report")
+	public void click_search_button_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSearch")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSearch"));
+		ele.click();
+	}
+	@Then("Click export button in Audit Report")
+	public void click_export_button_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnExport")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnExport"));
+		ele.click();
+	}
+
+	@Then("Enter valid trip number in Audit Report")
+	public void enter_valid_trip_number_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtTripNo")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtTripNo"));
+		ele.sendKeys("55184");
+	}
+	
+	@And("Select Invoiced option in Audit Report")
+	public void select_invoiced_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Invoiced");
+	}
+	
+	@And("Select Invoiced in GP option in Audit Report")
+	public void select_Invoiced_in_GP_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Invoiced");
+	}
+	
+	@And("Select NS Uploaded option in Audit Report")
+	public void select_NS_Uploaded_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("NS Uploaded");
+	}
+	
+	@And("Select NS Pending option in Audit Report")
+	public void select_NS_Pending_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("NS Pending");
+	}
+	
+	@And("Select Verified option in Audit Report")
+	public void select_Verified_in_GP_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Verified");
+	}
+	
+	@And("Select Ready to Go option in Audit Report")
+	public void select_Ready_to_Go_in_GP_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Ready to Go");
+	}
+	
+	@And("Select Error option in Audit Report")
+	public void select_Error_in_GP_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Error");
+	}
+	
+	
+	@And("Select No Quote option in Audit Report")
+	public void select_No_Quote_in_GP_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("No Quote");
+	}
+	
+	@And("Select Ignored option in Audit Report")
+	public void select_ignored_option_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlGPStatus")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlGPStatus"));
+		Select sel=new Select(ele);
+		sel.selectByVisibleText("Ignored");
+	}
+	@Then("Click ignore button in Audit Report")
+	public void click_ignore_button_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_gvTripDetails_lnkIgnore_0")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_gvTripDetails_lnkIgnore_0"));
+		ele.click();
+	}
+	
+	@And("Click save button in Ignore Trip")
+	public void click_save_button_in_ignore_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnIgnoreSave")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnIgnoreSave"));
+		ele.click();
+		try {
+			Alert alert = driver.switchTo().alert();
+			String text = alert.getText();
+			System.out.println("Alert message is displayed like : "+text);
+			alert.accept();
+		} catch (NoAlertPresentException e) {
+			System.out.println("No Alert message is displayed");
+		}
+	}
+	
+	@Then("Enter valid reason in Ignore Trip")
+	public void enter_valid_reason_in_ignore_trip() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtReason")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtReason"));
+		String text = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtReason"));
+		ele1.sendKeys("Test");
+	}
+	
+	@Then("Click ignored trip setup in Audit Report")
+	public void click_ignored_trip_setup_in_audit_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnTripSetup")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnTripSetup"));
+		ele.click();
+	}
+	@And("Click view ignored trip button in Ignored Trip Setup")
+	public void click_view_ignored_trip_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnIgnoredTrips")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnIgnoredTrips"));
+		ele.click();
+	}
+	
+	@And("Click add new button in Ignored Trip Setup")
+	public void click_add_new_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnAddnew")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnAddnew"));
+		ele.click();
+	}
+	@Then("Click back button in Ignored Trip Setup")
+	public void click_back_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnBack")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnBack"));
+		ele.click();
+	}
+	
+	@Then("Click save button in Ignored Trip Setup")
+	public void click_save_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSave")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSave"));
+		ele.click();
+		try {
+			Alert alert = driver.switchTo().alert();
+			String text = alert.getText();
+			System.out.println("Alert message is displayed like : "+text);
+			alert.accept();
+		} catch (NoAlertPresentException e) {
+			System.out.println("No Alert message is displayed");
+		}
+	}
+	
+	@Then("Enter valid customer name in Ignored Trip Setup")
+	public void enter_valid_customer_name_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtCustomer")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtCustomer"));
+		String text = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtCustomer"));
+		ele1.sendKeys("Test");
+	}
+	@And("Enter valid tail name in Ignored Trip Setup")
+	public void enter_valid_tail_name_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtTail")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtTail"));
+		String text = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtTail"));
+		ele1.sendKeys("Test");
+	}
+	@Then("Enter valid trip type in Ignored Trip Setup")
+	public void enter_valid_trip_type_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtTripType")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtTripType"));
+		String text = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtTripType"));
+		ele1.sendKeys("Test");
+	}
+	@And("Click clear button in Ignored Trip Setup")
+	public void click_clear_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnClear1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnClear1"));
+		ele.click();
+	}
+	
+	@And("Click edit button in Ignored Trip Setup")
+	public void click_edit_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_gvIgSetup_lnkEdit_0")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_gvIgSetup_lnkEdit_0"));
+		ele.click();
+	}
+	@Then("modify the details in Ignored Trip Setup")
+	public void modify_the_details_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtCustomer")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtCustomer"));
+		String text = ele.getAttribute("value");
+		ele.clear();
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtCustomer"));
+		ele1.sendKeys(text);
+	}
+	@And("Click update button in Ignored Trip Setup")
+	public void click_update_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSave")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSave"));
+		ele.click();
+	}
+	
+	@And("Click delete button in Ignored Trip Setup")
+	public void click_delete_button_in_ignored_trip_setup() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_gvIgSetup_imgdelete_0")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_gvIgSetup_imgdelete_0"));
+		ele.click();
+	}
+	
+	@Then("Click Change Log Report button in NSUpload")
+	public void click_change_log_report_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[8]/a/span")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[8]/a/span"));
+		ele.click();
+	}
+	@And("Select valid from date in Change Log Report")
+	public void select_valid_from_date_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtFromDate1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtFromDate1"));
+		ele.click();
+		//Month Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/thead/tr[2]/th[2]"));
+		ele1.click();
+		//Year Click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/thead/tr[2]/th[2]"));
+		ele2.click();
+		//Select 2023 year
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]")));
+		ele3 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[3]/table/tbody/tr/td/span[5]"));
+		ele3.click();
+		//Jan click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]")));
+		ele4 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[2]/table/tbody/tr/td/span[1]"));
+		ele4.click();
+		//Date click
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]")));
+		ele5 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[1]"));
+		ele5.click();
+	}
+	@Then("Enter valid trip number in Change Log Report")
+	public void enter_valid_trip_number_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtTripNo")));
+		ele1 = driver.findElement(By.id("ContentPlaceHolder1_txtTripNo"));
+		ele1.sendKeys("6137547");
+	}
+	@And("Select valid user in Change Log Report")
+	public void select_valid_user_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlUsers")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlUsers"));
+		Select sel=new Select(ele);
+		sel.selectByIndex(0);
+	}
+	@Then("Click search button in Change Log Report")
+	public void click_search_button_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSearch")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSearch"));
+		ele.click();
+	}
+	@And("Click export button in Change Log Report")
+	public void click_export_button_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnExport")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnExport"));
+		ele.click();
+	}
+	
+	@Then("Click Global Config Setup button in NSUpload")
+	public void click_global_config_setup_button_in_ns_upload() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[9]/a/span")));
+		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/div/ul/li[9]/a/span"));
+		ele.click();
+	}
+	@And("Select valid date in Change Log Report")
+	public void select_valid_date_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtEffFrom")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_txtEffFrom"));
+		ele.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[2]")));
+		ele1 = driver.findElement(By.xpath("//*[@id=\"kt_body\"]/div[6]/div[1]/table/tbody/tr[1]/td[2]"));
+		ele1.click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_content\"]/div[1]/div/div[2]/div[1]/div/h3")));
+		ele2 = driver.findElement(By.xpath("//*[@id=\"kt_content\"]/div[1]/div/div[2]/div[1]/div/h3"));
+		ele2.click();
+	}
+	@Then("Click Live Hours By Tail in Change Log Report")
+	public void click_live_hours_by_tail_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblSetupBy_0")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_rblSetupBy_0"));
+		ele.click();
+	}
+	@And("Click Block Hour in Change Log Report")
+	public void click_block_hour_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblSpltHour_1")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_rblSpltHour_1"));
+		ele.click();
+	}
+	@Then("Click update button in Change Log Report")
+	public void click_update_button_in_change_log_report() {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofMinutes(1));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnSave")));
+		ele = driver.findElement(By.id("ContentPlaceHolder1_btnSave"));
 		ele.click();
 	}
 }
