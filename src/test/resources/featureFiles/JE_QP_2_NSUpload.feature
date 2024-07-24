@@ -734,7 +734,7 @@ Feature: NS UPLOAD
     Then Select valid item code in Add Line Item
     And Enter valid amount in Add Line Item
     And Click save button in Add Line Item
-    And Click close button in Add Line Item
+    #And Click close button in Add Line Item
     Then close the NSUpload Page
 
   @TC_40
@@ -786,7 +786,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_43
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -936,7 +936,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_55
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:International Tax
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -944,11 +944,11 @@ Feature: NS UPLOAD
     Then Click International Tax Report button in NSUpload
     And Select valid from date in International Tax Report
     Then Select valid to date in International Tax Report
-    And Click search button in International Tax Report
+    #And Click search button in International Tax Report
     Then close the NSUpload Page
 
   @TC_56
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:International Tax
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -960,7 +960,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_57
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -972,7 +972,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_58
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -986,7 +986,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_59
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -998,7 +998,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_60
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1013,7 +1013,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_61
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1029,7 +1029,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_62
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1045,7 +1045,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_63
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1063,7 +1063,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_64
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Trip Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1075,7 +1075,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_65
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Segment Tax Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1088,7 +1088,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_66
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Segment Tax Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1100,8 +1100,8 @@ Feature: NS UPLOAD
     And Click search button in Segment Tax Report
     Then close the NSUpload Page
 
-  @TC_66
-  Scenario: NS Upload:Net Suite Upload
+  @TC_66a
+  Scenario: NS Upload:Segment Tax Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1115,7 +1115,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_67
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1129,7 +1129,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_68
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1143,7 +1143,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_69
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1156,7 +1156,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_70
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1169,7 +1169,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_71
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1182,7 +1182,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_72
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1195,7 +1195,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_73
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1208,7 +1208,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_74
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1221,7 +1221,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_75
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1234,7 +1234,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_76
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1247,7 +1247,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_77
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1260,7 +1260,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_78
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1275,7 +1275,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_79
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1290,7 +1290,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
      @TC_79
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1305,7 +1305,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_80
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1322,7 +1322,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_81
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1337,7 +1337,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_82
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1353,7 +1353,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_83
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1369,7 +1369,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_84
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1388,7 +1388,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
 
   @TC_85
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1407,7 +1407,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
     @TC_86
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1424,7 +1424,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
     @TC_87
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Audit Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1439,7 +1439,7 @@ Feature: NS UPLOAD
 		Then close the NSUpload Page
 		
 		 @TC_88
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Change Log Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1452,7 +1452,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
     @TC_89
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Change Log Report
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1465,7 +1465,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
     @TC_90
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Global Config Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload
@@ -1478,7 +1478,7 @@ Feature: NS UPLOAD
     Then close the NSUpload Page
     
     @TC_91
-  Scenario: NS Upload:Net Suite Upload
+  Scenario: NS Upload:Global Config Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check NSUpload

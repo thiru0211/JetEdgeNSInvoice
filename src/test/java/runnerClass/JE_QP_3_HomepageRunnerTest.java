@@ -6,17 +6,17 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\JetEdgeNSInvoicePortal\\src\\test\\resources\\featureFiles\\JE_QP_2_NSUpload.feature",
+@CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\JetEdgeNSInvoicePortal\\src\\test\\resources\\featureFiles\\JE_QP_3_Homepage.feature",
 glue = "stepDefinition",
 //monochrome = true,
 //dryRun = true,
-//tags="@TC_41",
+//tags="@TC_24",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 })
-public class JE_QP_2_NSUploadRunnerTest {
+public class JE_QP_3_HomepageRunnerTest {
 
 
 }
