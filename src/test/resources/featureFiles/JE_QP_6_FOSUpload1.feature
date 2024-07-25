@@ -59,7 +59,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_06
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: FOS UPLOAD 2.0:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -69,7 +69,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_07
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: FOS UPLOAD 2.0:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -79,7 +79,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_08
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: FOS UPLOAD 2.0:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -93,7 +93,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_09
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: FOS UPLOAD 2.0:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -107,7 +107,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_10
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: FOS UPLOAD 2.0:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -117,7 +117,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_11
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: OFF-FLEET UPLOAD:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -127,7 +127,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_12
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: OFF-FLEET UPLOAD:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -137,7 +137,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_13
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: OFF-FLEET UPLOAD:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -151,7 +151,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_14
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: OFF-FLEET UPLOAD:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload
@@ -165,7 +165,7 @@ Feature: FOS UPLOAD 1.0
     Then close the FOS Upload Page
 
   @TC_15
-  Scenario: FOS UPLOAD 1.0:Valid Check
+  Scenario: OFF-FLEET UPLOAD:Valid Check
     Given To Check FOS Upload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
     When To Check FOS Upload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
     And click the Signin button To Check FOS Upload

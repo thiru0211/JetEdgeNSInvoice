@@ -27,7 +27,7 @@ public class JE_QP_2_NSUpload {
 	public void user_is_navigating_to_jet_edge_Signin_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=new");
+		//option.addArguments("--headless=new");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -869,7 +869,7 @@ public class JE_QP_2_NSUpload {
 
 	@Then("Click NS Upload button in NSUpload")
 	public void click_ns_upload_button_in_ns_upload() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(1));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(2));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]")));
 		ele = driver.findElement(By.xpath("//*[@id=\"kt_aside_menu\"]/ul/li[1]/a/span[2]"));
 		ele.click();
@@ -937,7 +937,7 @@ public class JE_QP_2_NSUpload {
 
 	@Then("Click search button in Net Suite Upload")
 	public void click_search_button_in_net_suite_upload() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(1));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(2));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_btnRun")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_btnRun"));
 		ele.click();
@@ -961,7 +961,7 @@ public class JE_QP_2_NSUpload {
 
 	@And("Select valid NS Status in Net Suite Upload")
 	public void select_valid_ns_status_in_net_suite_upload() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(1));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(2));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_ddlStaus")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_ddlStaus"));
 		Select sel = new Select(ele);

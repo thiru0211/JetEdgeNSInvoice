@@ -13,8 +13,7 @@ glue = "stepDefinition",
 //tags="@Test",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
-		"html:Reports/cucumber-reports.html",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		"html:Reports/cucumber-reports.html"
 })
 public class JE_QP_4_GLUPLOAD2RunnerTest {
 
