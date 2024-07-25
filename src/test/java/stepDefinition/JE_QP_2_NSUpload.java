@@ -37,27 +37,27 @@ public class JE_QP_2_NSUpload {
 	public void username_and_password_are_and(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 
 	@And("click the Signin button To Check NSUpload")
 	public void click_the_SignIn_button() {
 		driver.findElement(By.id("ibLogin")).click();
-		System.out.println("login button clicked");
+		System.out.print("\u001B[1mlogin button clicked\u001B[0m");
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
 	@And("close the NSUpload Page")
 	public void close_the_Signin_Page() {
 		driver.quit();
-		System.out.println("Page is closed");
+		System.out.print("\u001B[1mPage is closed\u001B[0m");
 	}
 
 	@And("Click menu button in homepage")
@@ -155,10 +155,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert messgae displayed like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No alert is displayed after click search button");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -448,10 +448,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert Message Displayed Like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert Message Is Displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -531,10 +531,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert Message Displayed Like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert Message Is Displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -607,10 +607,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblVerified_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rblVerified_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -680,10 +680,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rdoinvoicedinGP_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rdoinvoicedinGP_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -737,10 +737,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblIgnore_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rblIgnore_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -797,10 +797,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert Message Displayed Like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert Message Is Displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -810,10 +810,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblItemType_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rblItemType_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -944,10 +944,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -1024,10 +1024,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblUpload_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rblUpload_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -1057,10 +1057,10 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_rblLockPerDiem_1")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_rblLockPerDiem_1"));
 		if (!ele.isSelected()) {
-			System.out.println("Radio button is not selected");
+			System.out.print("\u001B[1mRadio button is not selected\u001B[0m");
 			ele.click();
 		} else {
-			System.out.println("Radio button is already selected");
+			System.out.print("\u001B[1mRadio button is already selected\u001B[0m");
 		}
 	}
 
@@ -1148,7 +1148,7 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtToDate")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtToDate"));
 		String CurrentDate = ele.getAttribute("value");
-		System.out.println("To calendar date displayed is : " + CurrentDate);
+		System.out.print("\u001B[1mTo calendar date displayed is : \u001B[0m"+ CurrentDate);
 	}
 
 	@And("Click search button in International Tax Report")
@@ -1597,10 +1597,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -1656,10 +1656,10 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : " + text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 

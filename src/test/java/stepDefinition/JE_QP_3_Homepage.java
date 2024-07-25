@@ -38,20 +38,20 @@ public class JE_QP_3_Homepage {
 	public void username_and_password_are_and(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 
 	@And("click the Signin button To Check Homepage")
 	public void click_the_SignIn_button() {
 		driver.findElement(By.id("ibLogin")).click();
-		System.out.println("login button clicked");
+		System.out.print("\u001B[1mlogin button clicked\u001B[0m");
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -59,7 +59,7 @@ public class JE_QP_3_Homepage {
 	@And("close the Homepage Page")
 	public void close_the_Signin_Page() {
 		driver.quit();
-		System.out.println("Page is closed");
+		System.out.print("\u001B[1mPage is closed\u001B[0m");
 	}
 
 	@Then("Click GL Code setup button in homepage")
@@ -78,10 +78,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="GL Code Setup";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 
@@ -100,10 +103,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="Ignored Trip Setup";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -122,10 +128,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="FOS Upload 1.0";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -144,10 +153,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="Audit Report";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -166,10 +178,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="VerifyTrips";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -188,10 +203,13 @@ public class JE_QP_3_Homepage {
 		String ActualText = ele.getText();
 		String ExpectedText="Net Suite Upload";
 		if(ExpectedText.equals(ActualText)) {
-			System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			//System.out.println("Page landed to "+ ExpectedText +" sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedText +"\u001B[1msucessfully\u001B[0m");
+
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -218,10 +236,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Error";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mNE Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("NE Status tab doesnot shows expected option");
+			//System.out.println("NE Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mNE Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -240,10 +260,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Ready to Go";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mNE Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("NE Status tab doesnot shows expected option");
+			//System.out.println("NE Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mNE Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -262,10 +284,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Verified";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mNE Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("NE Status tab doesnot shows expected option");
+			//System.out.println("NE Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mNE Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -284,10 +308,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="NS Pending";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("NE Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mNE Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("NE Status tab doesnot shows expected option");
+			//System.out.println("NE Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mNE Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -306,10 +332,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="No Quote";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Trip Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("Trip Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mTrip Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Trip Status tab doesnot shows expected option");
+			//System.out.println("Trip Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mTrip Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -328,10 +356,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Pending";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Entry Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("Entry Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mEntry Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Entry Status tab doesnot shows expected option");
+			//System.out.println("Entry Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mEntry Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 	
@@ -350,10 +380,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Ignored";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Trip Status tab shows "+ ExpectedOption +" option sucessfully");
+			//System.out.println("Trip Status tab shows "+ ExpectedOption +" option sucessfully");
+			System.out.print("\u001B[1mTrip Status tab shows \u001B[0m"+ ExpectedOption +"\u001B[1moption sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Trip Status tab doesnot shows expected option");
+			//System.out.println("Trip Status tab doesnot shows expected option");
+			System.out.print("\u001B[1mTrip Status tab doesnot shows expected option\u001B[0m");
 		}
 	}
 
@@ -394,10 +426,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="View Trips 1.O";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -424,10 +458,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="GL Code Setup";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -446,10 +482,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Company GL Setup";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -468,10 +506,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Company Setup";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -490,10 +530,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="Global Config Setup";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	
@@ -512,10 +554,12 @@ public class JE_QP_3_Homepage {
 		String ActualOption = ele.getAttribute("value");
 		String ExpectedOption="FOS Upload 1.0";
 		if(ExpectedOption.equals(ActualOption)) {
-			System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			//System.out.println("Page landed to "+ ExpectedOption +" page sucessfully");
+			System.out.print("\u001B[1mPage landed to \u001B[0m"+ ExpectedOption +"\u001B[1mpage sucessfully\u001B[0m");
 		}
 		else {
-			System.out.println("Page doesnot landed to expected page");
+			//System.out.println("Page doesnot landed to expected page");
+			System.out.print("\u001B[1mPage doesnot landed to expected page\u001B[0m");
 		}
 	}
 	

@@ -39,20 +39,20 @@ public class JE_QP_5_Setup {
 	public void username_and_password_are_and(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 
 	@And("click the Signin button To Check Setup")
 	public void click_the_SignIn_button() {
 		driver.findElement(By.id("ibLogin")).click();
-		System.out.println("login button clicked");
+		System.out.print("\u001B[1mlogin button clicked\u001B[0m");
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
@@ -60,7 +60,7 @@ public class JE_QP_5_Setup {
 	@And("close the Setup Page")
 	public void close_the_Signin_Page() {
 		driver.quit();
-		System.out.println("Page is closed");
+		System.out.print("\u001B[1mPage is closed\u001B[0m");
 	}
 
 
@@ -105,10 +105,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert text displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	
@@ -368,10 +368,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Select valid company name {string} in GL Code Setup")
@@ -580,7 +580,8 @@ public class JE_QP_5_Setup {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_lblMsgDelete")));
 		ele1 = driver.findElement(By.id("ContentPlaceHolder1_lblMsgDelete"));
 		String text = ele1.getText();
-		System.out.println("Delete message displayed like : "+text);
+	//	System.out.println("Delete message displayed like : "+text);
+		System.out.print("\u001B[1mDelete message displayed like : \u001B[0m"+text);
 	}
 	@And("Click no button in GL Code Setup")
 	public void click_no_button_in_gl_code_setup() {
@@ -630,10 +631,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Select valid company name in Company GL Setup")
@@ -734,10 +735,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Click Rate Setup radio button in rate setup")
@@ -870,10 +871,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Enter valid Company name {string} in price Setup")
@@ -999,10 +1000,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Enter valid NS Customer ID {string} in NS Customer")
@@ -1090,10 +1091,10 @@ public class JE_QP_5_Setup {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	@And("Enter valid company name {string} in Exclude Line Item")

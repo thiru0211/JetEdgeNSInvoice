@@ -44,27 +44,27 @@ public class JE_QP_6_FOSUpload1 {
 	public void username_and_password_are_and(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 
 	@And("click the Signin button To Check FOS Upload")
 	public void click_the_SignIn_button() {
 		driver.findElement(By.id("ibLogin")).click();
-		System.out.println("login button clicked");
+		System.out.print("\u001B[1mlogin button clicked\u001B[0m");
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 
 	@And("close the FOS Upload Page")
 	public void close_the_Signin_Page() {
 		driver.quit();
-		System.out.println("Page is closed");
+		System.out.print("\u001B[1mPage is closed\u001B[0m");
 	}
 
 
@@ -104,10 +104,10 @@ public class JE_QP_6_FOSUpload1 {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	
@@ -201,10 +201,10 @@ public class JE_QP_6_FOSUpload1 {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	
@@ -300,10 +300,10 @@ public class JE_QP_6_FOSUpload1 {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 	
@@ -384,12 +384,15 @@ public class JE_QP_6_FOSUpload1 {
 		ele2 = driver.findElement(By.id("ContentPlaceHolder1_txtNotes"));
 		String Notes = ele2.getAttribute("value");
 		if(FromDate.isEmpty() && ToDate.isEmpty() && Notes.isEmpty()) {
-			System.out.println("Data is cleared");
+			//System.out.println("Data is cleared");
+			System.out.print("\u001B[1mData is cleared\u001B[0m");
 			
 		}
 		else {
-			System.out.println("Data is not cleared");
-			System.out.println("Data is displayed like : "+FromDate+ToDate+Notes);
+			//System.out.println("Data is not cleared");
+			System.out.print("\u001B[1mData is not cleared\u001B[0m");
+			//System.out.println("Data is displayed like : "+FromDate+ToDate+Notes);
+			System.out.print("\u001B[1mData is displayed like : \u001B[0m"+FromDate+ToDate+Notes);
 		}
 	}
 }

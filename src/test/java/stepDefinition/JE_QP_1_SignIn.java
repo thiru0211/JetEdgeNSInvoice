@@ -37,20 +37,21 @@ public class JE_QP_1_SignIn {
 	public void username_and_password_are_and(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
+
 	}
 
 	@And("click the Signin button To Check Signin")
 	public void click_the_SignIn_button() {
 		driver.findElement(By.id("ibLogin")).click();
-		System.out.println("login button clicked");
+		System.out.print("\u001B[1mLogin button clicked\u001B[0m");
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 		
 	}
@@ -61,13 +62,14 @@ public class JE_QP_1_SignIn {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("lblInvalidLogin")));
 		ele=driver.findElement(By.id("lblInvalidLogin"));
 		String ErrorMsg = ele.getText();
-		System.out.println("Error Message Displayed Like : "+ErrorMsg);
+		System.out.print("\u001B[1mError Message Displayed Like : \u001B[0m"+ErrorMsg);
 	}
 	
 	@And("close the Signin Page")
 	public void close_the_Signin_Page() {
 		driver.quit();
-		System.out.println("Page is closed");
+		System.out.print("\u001B[1mPage is closed\u001B[0m");
+
 	}
 
 	@Then("Click the menu icon in homepage")
@@ -90,7 +92,8 @@ public class JE_QP_1_SignIn {
 	public void To_Check_Signin_User_Enter_Invalid_username_and_password_are(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
+
 		
 	}
 	
@@ -98,28 +101,28 @@ public class JE_QP_1_SignIn {
 	public void To_Check_Signin_User_Enter_username_and_Invalid_password_are(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 	
 	@When("To Check Signin User Enter invalid username and invalid password are {string} and {string}")
 	public void To_Check_Signin_User_Enter_invalid_username_and_Invalid_password_are(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 	
 	@When("To Check Signin User Enter username and without password are {string} and {string}")
 	public void To_Check_Signin_User_Enter_username_and_without_password_are(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 	
 	@When("To Check Signin User without username and valid password are {string} and {string}")
 	public void To_Check_Signin_User_without_username_and_valid_password_are(String UserName, String Password) {
 		driver.findElement(By.id("txtUserName")).sendKeys(UserName);
 		driver.findElement(By.id("txtPassword")).sendKeys(Password);
-		System.out.println("Username and password entered");
+		System.out.print("\u001B[1mUsername and password entered\u001B[0m");
 	}
 	
 	@When("Click forget password button in NSInvoice")
@@ -133,10 +136,10 @@ public class JE_QP_1_SignIn {
 			wait.until(ExpectedConditions.alertIsPresent());
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.println("Alert message is displayed like : "+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
-			System.out.println("No Alert message is displayed");
+			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
 		}
 	}
 }
