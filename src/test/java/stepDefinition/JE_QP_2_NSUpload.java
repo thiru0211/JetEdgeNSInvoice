@@ -27,7 +27,7 @@ public class JE_QP_2_NSUpload {
 	public void user_is_navigating_to_jet_edge_Signin_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		//option.addArguments("--headless=new");
+		// option.addArguments("--headless=new");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -47,7 +47,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -155,7 +155,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -448,7 +448,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -531,7 +531,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -797,7 +797,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -944,7 +944,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -1148,7 +1148,7 @@ public class JE_QP_2_NSUpload {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ContentPlaceHolder1_txtToDate")));
 		ele = driver.findElement(By.id("ContentPlaceHolder1_txtToDate"));
 		String CurrentDate = ele.getAttribute("value");
-		System.out.print("\u001B[1mTo calendar date displayed is : \u001B[0m"+ CurrentDate);
+		System.out.print("\u001B[1mTo calendar date displayed is : \u001B[0m" + CurrentDate);
 	}
 
 	@And("Click search button in International Tax Report")
@@ -1597,7 +1597,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");
@@ -1656,7 +1656,7 @@ public class JE_QP_2_NSUpload {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String text = alert.getText();
-			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m"+text);
+			System.out.print("\u001B[1mAlert message is displayed like : \u001B[0m" + text);
 			alert.accept();
 		} catch (NoAlertPresentException e) {
 			System.out.print("\u001B[1mNo Alert message is displayed\u001B[0m");

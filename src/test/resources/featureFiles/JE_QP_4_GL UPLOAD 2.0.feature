@@ -3,7 +3,7 @@ Feature: GL UPLOAD2.0
  # @TC_01
   #Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -15,7 +15,7 @@ Feature: GL UPLOAD2.0
    # @TC_02
   #Scenario: GL UPLOAD2.0:View Trips
    # Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    #When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    #When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
  #   And Click menu button in homepage in GL UPLOAD2
   #  Then Click View trips2 button in GL UPLOAD2
@@ -27,7 +27,7 @@ Feature: GL UPLOAD2.0
    # @TC_03
   #Scenario: GL UPLOAD2.0:View Trips
    # Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-   # When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+   # When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
    # And click the Signin button To Check GL UPLOAD2
    # And Click menu button in homepage in GL UPLOAD2
    # Then Click View trips2 button in GL UPLOAD2
@@ -39,7 +39,7 @@ Feature: GL UPLOAD2.0
     #@TC_04
   #Scenario: GL UPLOAD2.0:View Trips
    # Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-  #  When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+  #  When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
   #  And click the Signin button To Check GL UPLOAD2
   #  And Click menu button in homepage in GL UPLOAD2
    # Then Click View trips2 button in GL UPLOAD2
@@ -51,7 +51,7 @@ Feature: GL UPLOAD2.0
   #  @TC_05
  # Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
  #   And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -64,7 +64,7 @@ Feature: GL UPLOAD2.0
  #   @TC_06
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
  #   Then Click View trips2 button in GL UPLOAD2
@@ -77,7 +77,7 @@ Feature: GL UPLOAD2.0
 #    @TC_07
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -91,7 +91,7 @@ Feature: GL UPLOAD2.0
 #    @TC_08
   #Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -105,7 +105,7 @@ Feature: GL UPLOAD2.0
 #    @TC_09
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -119,7 +119,7 @@ Feature: GL UPLOAD2.0
 #    @TC_10
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -134,7 +134,7 @@ Feature: GL UPLOAD2.0
 #    @TC_11
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -149,7 +149,7 @@ Feature: GL UPLOAD2.0
 #    @TC_12
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -165,7 +165,7 @@ Feature: GL UPLOAD2.0
 #    @TC_13
 #  Scenario: GL UPLOAD2.0:View Trips
 ##    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -176,7 +176,7 @@ Feature: GL UPLOAD2.0
 #    @TC_14
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -188,7 +188,7 @@ Feature: GL UPLOAD2.0
 #    @TC_15
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -200,7 +200,7 @@ Feature: GL UPLOAD2.0
 #    @TC_16
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -219,7 +219,7 @@ Feature: GL UPLOAD2.0
 #    @TC_17
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -231,7 +231,7 @@ Feature: GL UPLOAD2.0
 #    @TC_18
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -245,7 +245,7 @@ Feature: GL UPLOAD2.0
 #    @TC_19
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -257,7 +257,7 @@ Feature: GL UPLOAD2.0
 #    @TC_20
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -270,7 +270,7 @@ Feature: GL UPLOAD2.0
 #    @TC_21
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -282,7 +282,7 @@ Feature: GL UPLOAD2.0
 #    @TC_22
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -294,7 +294,7 @@ Feature: GL UPLOAD2.0
 #    @TC_23
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click View trips2 button in GL UPLOAD2
@@ -308,7 +308,7 @@ Feature: GL UPLOAD2.0
 #    @TC_24
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click Global Config Setup button in GL UPLOAD2
@@ -321,7 +321,7 @@ Feature: GL UPLOAD2.0
 #    @TC_25
 #  Scenario: GL UPLOAD2.0:View Trips
 #    Given To Check GL UPLOAD2 User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+#    When To Check GL UPLOAD2 User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
 #    And click the Signin button To Check GL UPLOAD2
 #    And Click menu button in homepage in GL UPLOAD2
 #    Then Click Global Config Setup button in GL UPLOAD2

@@ -3,14 +3,14 @@ Feature: SignIn
   @TC_01
   Scenario: Sign In:Valid Check
     Given To Check Signin User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Signin User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Signin User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Signin
     Then close the Signin Page
 
   @TC_02
   Scenario: Sign In:Valid Check
     Given To Check Signin User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Signin User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Signin User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Signin
     Then Click the menu icon in homepage
     And Click Signout button in homepage
@@ -19,7 +19,7 @@ Feature: SignIn
   @TC_03
   Scenario: Sign In:Valid Check
     Given To Check Signin User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Signin User Enter Invalid username and password are "sound@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Signin User Enter Invalid username and password are "sound@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Signin
     Then Check error message in signin page
     Then close the Signin Page
@@ -50,7 +50,7 @@ Feature: SignIn
   @TC_07
   Scenario: Sign In:Valid Check
     Given To Check Signin User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Signin User without username and valid password are "" and "Soundharya@1234"
+    When To Check Signin User without username and valid password are "" and "Soundharya@123"
     And click the Signin button To Check Signin
     Then close the Signin Page
 

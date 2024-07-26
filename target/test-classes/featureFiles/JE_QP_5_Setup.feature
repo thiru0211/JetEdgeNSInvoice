@@ -3,7 +3,7 @@ Feature: SETUP
   @TC_01
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -14,7 +14,7 @@ Feature: SETUP
   @TC_02
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -25,7 +25,7 @@ Feature: SETUP
   @TC_03
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -42,7 +42,7 @@ Feature: SETUP
   @TC_04
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -59,7 +59,7 @@ Feature: SETUP
   @TC_05
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -76,7 +76,7 @@ Feature: SETUP
   @TC_06
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -93,7 +93,7 @@ Feature: SETUP
   @TC_07
   Scenario: Setup:Fuel Surcharge Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Fuel Surcharge Setup button in Setup
@@ -106,7 +106,7 @@ Feature: SETUP
   @TC_08
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -117,7 +117,7 @@ Feature: SETUP
   @TC_09
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -128,7 +128,7 @@ Feature: SETUP
   @TC_10
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -139,7 +139,7 @@ Feature: SETUP
   @TC_11
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -150,7 +150,7 @@ Feature: SETUP
   @TC_12
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -162,7 +162,7 @@ Feature: SETUP
   @TC_13
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -174,7 +174,7 @@ Feature: SETUP
   @TC_14
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -186,7 +186,7 @@ Feature: SETUP
   @TC_15
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -199,7 +199,7 @@ Feature: SETUP
   @TC_16
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -212,7 +212,7 @@ Feature: SETUP
   @TC_17
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -225,7 +225,7 @@ Feature: SETUP
   @TC_18
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -239,7 +239,7 @@ Feature: SETUP
   @TC_19
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -253,7 +253,7 @@ Feature: SETUP
   @TC_20
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -267,7 +267,7 @@ Feature: SETUP
   @TC_21
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -282,7 +282,7 @@ Feature: SETUP
     @TC_21
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -293,7 +293,7 @@ Feature: SETUP
     @TC_22
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -304,7 +304,7 @@ Feature: SETUP
     @TC_23
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -319,7 +319,7 @@ Feature: SETUP
     @TC_24
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -331,7 +331,7 @@ Feature: SETUP
      @TC_25
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -343,7 +343,7 @@ Feature: SETUP
      @TC_26
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -369,7 +369,7 @@ Feature: SETUP
     @TC_27
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -395,7 +395,7 @@ Feature: SETUP
     @TC_28
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -407,7 +407,7 @@ Feature: SETUP
     @TC_29
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -419,7 +419,7 @@ Feature: SETUP
     @TC_30
   Scenario: Setup:GL Code Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click GL Code Setup button in Setup
@@ -432,7 +432,7 @@ Feature: SETUP
      @TC_31
   Scenario: Setup:Company GL Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Company GL Setup button in Setup
@@ -443,7 +443,7 @@ Feature: SETUP
     @TC_32
   Scenario: Setup:Company GL Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Company GL Setup button in Setup
@@ -454,7 +454,7 @@ Feature: SETUP
     @TC_33
   Scenario: Setup:Company GL Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Company GL Setup button in Setup
@@ -470,7 +470,7 @@ Feature: SETUP
     @TC_34
   Scenario: Setup:Company GL Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Company GL Setup button in Setup
@@ -486,7 +486,7 @@ Feature: SETUP
     @TC_35
   Scenario: Setup:Company GL Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Company GL Setup button in Setup
@@ -499,7 +499,7 @@ Feature: SETUP
     @TC_36
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -514,7 +514,7 @@ Feature: SETUP
   @TC_37
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -530,7 +530,7 @@ Feature: SETUP
   @TC_38
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -546,7 +546,7 @@ Feature: SETUP
   @TC_39
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -565,7 +565,7 @@ Feature: SETUP
   @TC_40
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -584,7 +584,7 @@ Feature: SETUP
     @TC_41
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -601,7 +601,7 @@ Feature: SETUP
     @TC_42
   Scenario: Setup:Ignored Trip Setup
     Given To Check NSUpload User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check NSUpload User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check NSUpload
     And Click menu button in homepage
     Then Click Audit Report button in NSUpload
@@ -616,7 +616,7 @@ Feature: SETUP
 		@TC_43
   Scenario: Setup:Rate Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Rate Setup button in Setup
@@ -627,7 +627,7 @@ Feature: SETUP
     @TC_44
   Scenario: Setup:Rate Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Rate Setup button in Setup
@@ -638,7 +638,7 @@ Feature: SETUP
     @TC_45
   Scenario: Setup:Rate Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Rate Setup button in Setup
@@ -656,7 +656,7 @@ Feature: SETUP
     @TC_46
   Scenario: Setup:Rate Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Rate Setup button in Setup
@@ -674,7 +674,7 @@ Feature: SETUP
     @TC_47
   Scenario: Setup:Rate Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Rate Setup button in Setup
@@ -687,7 +687,7 @@ Feature: SETUP
     @TC_48
   Scenario: Setup:Price Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click price Setup button in Setup
@@ -698,7 +698,7 @@ Feature: SETUP
     @TC_49
   Scenario: Setup:Price Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click price Setup button in Setup
@@ -709,7 +709,7 @@ Feature: SETUP
     @TC_50
   Scenario: Setup:Price Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click price Setup button in Setup
@@ -726,7 +726,7 @@ Feature: SETUP
     @TC_51
   Scenario: Setup:Price Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click price Setup button in Setup
@@ -743,7 +743,7 @@ Feature: SETUP
     @TC_52
   Scenario: Setup:Price Setup
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click price Setup button in Setup
@@ -756,7 +756,7 @@ Feature: SETUP
     @TC_53
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click NS Customer button in Setup
@@ -767,7 +767,7 @@ Feature: SETUP
     @TC_54
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click NS Customer button in Setup
@@ -778,7 +778,7 @@ Feature: SETUP
     @TC_55
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click NS Customer button in Setup
@@ -792,7 +792,7 @@ Feature: SETUP
     @TC_56
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click NS Customer button in Setup
@@ -806,7 +806,7 @@ Feature: SETUP
     @TC_57
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click NS Customer button in Setup
@@ -814,33 +814,33 @@ Feature: SETUP
     And Modify valid details in NS Customer
     And Click save button in NS Customer
     Then close the Setup Page
-    @Test
+
     @TC_58
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Exclude Line Item button in Setup
     Then Click add new button in Exclude Line Item
     And Click back button in Exclude Line Item
     Then close the Setup Page
-    @Test
+
     @TC_59
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Exclude Line Item button in Setup
     Then Click add new button in Exclude Line Item
     And Click save button in Exclude Line Item
     Then close the Setup Page
-    @Test
+
     @TC_60
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Exclude Line Item button in Setup
@@ -850,11 +850,11 @@ Feature: SETUP
     And Click Yes radio button in Exclude Line Items
     And Click clear button in Exclude Line Item
     Then close the Setup Page
-    @Test
+
     @TC_61
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Exclude Line Item button in Setup
@@ -864,11 +864,11 @@ Feature: SETUP
     And Click No radio button in Exclude Line Items
     And Click save button in Exclude Line Item
     Then close the Setup Page
-    @Test
+
     @TC_62
   Scenario: Setup:NS Customer
     Given To Check Setup User is navigating to JetEdge URL is "https://preprod.flyjetedge.aero/NSINVOICEDEMO/login.aspx"
-    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@1234"
+    When To Check Setup User Enter username and password are "soundharya@sankarasoftware.com" and "Soundharya@123"
     And click the Signin button To Check Setup
     Then Click menu button in homepage in Setup
     And Click Exclude Line Item button in Setup
